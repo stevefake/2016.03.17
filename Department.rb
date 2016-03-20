@@ -1,17 +1,22 @@
-require_relative 'Employee'  # ~> NameError: undefined local variable or method `name' for main:Object
+require_relative 'Employee'  # => true
 
 class Department
 
-  def initialize
-    @Department = department
-  end
-end
+  # def initialize
+  #   @Department = department
+  # end
 
-department1 = Department.new("new department")
+  # def department(dept_name)
+  #   departnment.new = dept_name
+  # end
+  
+end  # => nil
+
+# department1 = Department.new("new department")
 
 # Add an employee to a department.
 
-Employee.new << Department
+# Employee.new << Department
 
 # Get a department's name.
 # Department.new(department_name)
@@ -30,10 +35,3 @@ Employee.new << Department
 #       raise_per_employee = "$100000raise" / satisfactory_employees.count
 #     end
 #   end
-
-# ~> NameError
-# ~> undefined local variable or method `name' for main:Object
-# ~>
-# ~> /Users/stevefake/Desktop/iron_yard/2016.03.17_git_repo/Employee.rb:11:in `<top (required)>'
-# ~> /Users/stevefake/Desktop/iron_yard/2016.03.17_git_repo/Department.rb:1:in `require_relative'
-# ~> /Users/stevefake/Desktop/iron_yard/2016.03.17_git_repo/Department.rb:1:in `<main>'
