@@ -14,7 +14,10 @@ Just to be clear, if you are searching for "Clinton", text messages with "Clinto
 HOURS ESTIMATES:
 
 (~1 hour) Create a new department (given its name).
+  Actual: About an hour. Maybe more. The main difficulty was in making any test fail. 
+  (Syntax: start test name with 'test')
 (~15 min) Create a new employee (given his/her name, email address, phone number, and salary).
+  Actual: 5-10 minutes
 (~20 min) Add an employee to a department.
 (~20 min) Get an employee's name.
 (~10 min) Get an employee's salary.

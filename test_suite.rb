@@ -20,9 +20,15 @@ class EmployeeReviewsTest < Minitest::Test  # => Minitest::Test
 
 # Create a new department (given its name)
   def test_dept_can_be_created    # method def name must start with the word 'test'!!!
-    assert Department.new("Public Health Department") 
+    assert Department.new("Public Health Department")
     # assert_equal 'some_new_department', department.create_department("some_new_department")
   end                                                                    # => :create_dept_test
+
+# Create a new employee (given his/her name, email address, phone number, and salary)
+  def test_new_employee_can_be_created
+    assert Employee.new("Sam Smith", "Sam.Smith@gmail.com", "555-555-5555", 50000.00)
+  end
+
 
   # def test_can_init_with_hash
   #   sue = Employees.new({sue: "sue", email: "email"})

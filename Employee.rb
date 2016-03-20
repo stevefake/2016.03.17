@@ -1,11 +1,12 @@
 class Employee
 
-  # def initialize (name, email_address, phone_number, salary)
-  #   @name = name
-  #   @email_address = email_address
-  #   @phone_number = phone_number
-  #   @salary = salary
-  # end                                                         # => :initialize
+  def initialize (name, email_address, phone_number, salary)
+    @name = name
+    @email_address = email_address
+    @phone_number = phone_number
+    @salary = salary
+  end                                                         # => :initialize
+
 end                                                           # => :initialize
 
 # employee = Employee.new(name, email_address, phone_number, salary)  # ~> NameError: undefined local variable or method `name' for main:Object
