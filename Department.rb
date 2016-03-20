@@ -1,15 +1,15 @@
-require_relative 'Employee'  # => true
+# require_relative 'Employee'  # => true
 
 class Department
 
-  # def initialize
-  #   @Department = department
-  # end
+  def initialize(dept_name)
+    @dept_name = dept_name
+  end
 
-  # def department(dept_name)
-  #   departnment.new = dept_name
-  # end
-  
+  def create_department(dept_name)
+    assert dept_name.new = dept_name
+  end
+
 end  # => nil
 
 # department1 = Department.new("new department")
