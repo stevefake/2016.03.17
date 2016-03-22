@@ -1,16 +1,26 @@
 # require_relative 'Employee'  # => true
 
 class Department
+  attr_reader :dept_name
 
   def initialize(dept_name)
     @dept_name = dept_name
+    @employee_roll = []
+  end                        # => :initialize
+
+  def create_department(department)
+    department = @dept_name
+  end                               # => :create_department
+
+  def add_department_employee(employee_name)
+    @employee_roll << employee_name
   end
 
-  def create_department(dept_name)
-    assert dept_name.new = dept_name
+  def employees
+    @employee_roll
   end
 
-end  # => nil
+end  # => :create_department
 
 # department1 = Department.new("new department")
 
